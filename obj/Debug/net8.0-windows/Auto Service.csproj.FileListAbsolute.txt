@@ -1,0 +1,24 @@
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\bin\Debug\net8.0-windows\Auto Service.exe
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\bin\Debug\net8.0-windows\Auto Service.deps.json
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\bin\Debug\net8.0-windows\Auto Service.runtimeconfig.json
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\bin\Debug\net8.0-windows\Auto Service.dll
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\bin\Debug\net8.0-windows\Auto Service.pdb
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.csproj.GenerateResource.cache
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.AssemblyInfoInputs.cache
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.AssemblyInfo.cs
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.csproj.CoreCompileInputs.cache
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.dll
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\refint\Auto Service.dll
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.pdb
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto Service.genruntimeconfig.cache
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\ref\Auto Service.dll
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.Login.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.Properties.Resources.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.customerInfoForm.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.bookingForm.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.dashboardWindow.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.recordsManagement.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.dashboardPanel.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.serviceHistory.resources
+C:\Users\Danica\Desktop\2nd Sem\EDP\Auto Service\Auto Service\obj\Debug\net8.0-windows\Auto_Service.transactionsHistory.resources
