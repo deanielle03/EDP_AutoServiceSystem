@@ -1,6 +1,6 @@
 ﻿namespace Auto_Service
 {
-    partial class bookingForm
+    partial class productForm
     {
         /// <summary>
         /// Required designer variable.
@@ -28,29 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label12 = new Label();
             label3 = new Label();
-            serviceNameBooking = new ComboBox();
-            fNameBooking = new TextBox();
-            phoneNumBooking = new TextBox();
+            productName = new TextBox();
             label1 = new Label();
+            label2 = new Label();
+            productPrice = new TextBox();
             label4 = new Label();
+            productQuantity = new TextBox();
             cancelBtn = new Button();
             submitBtn = new Button();
-            label2 = new Label();
-            statusDDown = new ComboBox();
             SuspendLayout();
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label12.ForeColor = Color.White;
-            label12.Location = new Point(128, 166);
-            label12.Name = "label12";
-            label12.Size = new Size(88, 28);
-            label12.TabIndex = 32;
-            label12.Text = "Service :";
             // 
             // label3
             // 
@@ -60,34 +47,16 @@
             label3.Location = new Point(47, 25);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.Yes;
-            label3.Size = new Size(251, 28);
-            label3.TabIndex = 24;
-            label3.Text = "BOOKING INFORMATION";
+            label3.Size = new Size(252, 28);
+            label3.TabIndex = 25;
+            label3.Text = "PRODUCT INFORMATION";
             // 
-            // serviceNameBooking
+            // productName
             // 
-            serviceNameBooking.DropDownStyle = ComboBoxStyle.DropDownList;
-            serviceNameBooking.FormattingEnabled = true;
-            serviceNameBooking.Location = new Point(217, 166);
-            serviceNameBooking.Name = "serviceNameBooking";
-            serviceNameBooking.Size = new Size(365, 33);
-            serviceNameBooking.TabIndex = 31;
-            serviceNameBooking.SelectedIndexChanged += serviceNameBooking_SelectedIndexChanged;
-            // 
-            // fNameBooking
-            // 
-            fNameBooking.Location = new Point(217, 73);
-            fNameBooking.Name = "fNameBooking";
-            fNameBooking.Size = new Size(365, 31);
-            fNameBooking.TabIndex = 25;
-            // 
-            // phoneNumBooking
-            // 
-            phoneNumBooking.Location = new Point(217, 120);
-            phoneNumBooking.Name = "phoneNumBooking";
-            phoneNumBooking.Size = new Size(365, 31);
-            phoneNumBooking.TabIndex = 27;
-            phoneNumBooking.TextChanged += phoneNumBooking_TextChanged;
+            productName.Location = new Point(217, 73);
+            productName.Name = "productName";
+            productName.Size = new Size(365, 31);
+            productName.TabIndex = 29;
             // 
             // label1
             // 
@@ -97,19 +66,44 @@
             label1.Location = new Point(139, 73);
             label1.Name = "label1";
             label1.Size = new Size(77, 28);
-            label1.TabIndex = 28;
+            label1.TabIndex = 30;
             label1.Text = "Name :";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(149, 120);
+            label2.Name = "label2";
+            label2.Size = new Size(67, 28);
+            label2.TabIndex = 31;
+            label2.Text = "Price :";
+            // 
+            // productPrice
+            // 
+            productPrice.Location = new Point(217, 118);
+            productPrice.Name = "productPrice";
+            productPrice.Size = new Size(365, 31);
+            productPrice.TabIndex = 32;
             // 
             // label4
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label4.ForeColor = Color.White;
-            label4.Location = new Point(92, 120);
+            label4.Location = new Point(115, 166);
             label4.Name = "label4";
-            label4.Size = new Size(124, 28);
-            label4.TabIndex = 30;
-            label4.Text = "Mobile No. :";
+            label4.Size = new Size(101, 28);
+            label4.TabIndex = 33;
+            label4.Text = "Quantity :";
+            // 
+            // productQuantity
+            // 
+            productQuantity.Location = new Point(217, 166);
+            productQuantity.Name = "productQuantity";
+            productQuantity.Size = new Size(365, 31);
+            productQuantity.TabIndex = 34;
             // 
             // cancelBtn
             // 
@@ -119,10 +113,10 @@
             cancelBtn.FlatStyle = FlatStyle.Flat;
             cancelBtn.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cancelBtn.ForeColor = Color.White;
-            cancelBtn.Location = new Point(300, 283);
+            cancelBtn.Location = new Point(300, 228);
             cancelBtn.Name = "cancelBtn";
             cancelBtn.Size = new Size(134, 45);
-            cancelBtn.TabIndex = 33;
+            cancelBtn.TabIndex = 35;
             cancelBtn.Text = "Cancel";
             cancelBtn.UseVisualStyleBackColor = false;
             cancelBtn.Click += cancelBtn_Click;
@@ -134,77 +128,53 @@
             submitBtn.FlatStyle = FlatStyle.Flat;
             submitBtn.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
             submitBtn.ForeColor = Color.White;
-            submitBtn.Location = new Point(448, 283);
+            submitBtn.Location = new Point(448, 228);
             submitBtn.MaximumSize = new Size(134, 45);
             submitBtn.MinimumSize = new Size(134, 45);
             submitBtn.Name = "submitBtn";
             submitBtn.Size = new Size(134, 45);
-            submitBtn.TabIndex = 34;
+            submitBtn.TabIndex = 36;
             submitBtn.Text = "Submit";
             submitBtn.UseVisualStyleBackColor = false;
             submitBtn.Click += submitBtn_Click;
             // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(138, 216);
-            label2.Name = "label2";
-            label2.Size = new Size(78, 28);
-            label2.TabIndex = 35;
-            label2.Text = "Status :";
-            // 
-            // statusDDown
-            // 
-            statusDDown.DropDownStyle = ComboBoxStyle.DropDownList;
-            statusDDown.FormattingEnabled = true;
-            statusDDown.Location = new Point(217, 216);
-            statusDDown.Name = "statusDDown";
-            statusDDown.Size = new Size(365, 33);
-            statusDDown.TabIndex = 36;
-            // 
-            // bookingForm
+            // productForm
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(20, 20, 20);
-            ClientSize = new Size(634, 358);
-            Controls.Add(statusDDown);
-            Controls.Add(label2);
+            BackColor = Color.Black;
+            ClientSize = new Size(634, 300);
             Controls.Add(submitBtn);
             Controls.Add(cancelBtn);
-            Controls.Add(label12);
-            Controls.Add(label3);
-            Controls.Add(serviceNameBooking);
-            Controls.Add(fNameBooking);
-            Controls.Add(phoneNumBooking);
-            Controls.Add(label1);
+            Controls.Add(productQuantity);
             Controls.Add(label4);
+            Controls.Add(productPrice);
+            Controls.Add(label2);
+            Controls.Add(productName);
+            Controls.Add(label1);
+            Controls.Add(label3);
             MaximizeBox = false;
-            MaximumSize = new Size(656, 414);
+            MaximumSize = new Size(656, 356);
             MinimizeBox = false;
-            MinimumSize = new Size(656, 414);
-            Name = "bookingForm";
+            MinimumSize = new Size(656, 356);
+            Name = "productForm";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Booking Form";
-            Load += bookingForm_Load;
+            Text = "productForm";
+            Load += productForm_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Label label12;
         private Label label3;
-        private ComboBox serviceNameBooking;
-        private TextBox fNameBooking;
-        private TextBox phoneNumBooking;
+        private TextBox productName;
         private Label label1;
+        private Label label2;
+        private TextBox productPrice;
         private Label label4;
+        private TextBox productQuantity;
         private Button cancelBtn;
         private Button submitBtn;
-        private Label label2;
-        private ComboBox statusDDown;
     }
 }

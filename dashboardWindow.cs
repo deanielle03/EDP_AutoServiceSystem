@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Auto_Service
 {
@@ -76,9 +77,19 @@ namespace Auto_Service
             loadUserControl(new serviceHistory());
         }
 
-        private void transactionHistoryBtn_Click(object sender, EventArgs e)
+        private void bookingQBtn_Click(object sender, EventArgs e)
         {
-            loadUserControl(new transactionsHistory());
+            loadUserControl(new booking());
+        }
+
+        private void productBtn_Click(object sender, EventArgs e)
+        {
+            loadUserControl(new productsManagement());
+        }
+
+        private void employeesBtn_Click(object sender, EventArgs e)
+        {
+            loadUserControl(new employeeManagement());
         }
     }
 }

@@ -34,11 +34,11 @@
             label4 = new Label();
             panel1 = new Panel();
             panel2 = new Panel();
+            password = new TextBox();
             label5 = new Label();
             label2 = new Label();
             label1 = new Label();
-            textBox2 = new TextBox();
-            textBox1 = new TextBox();
+            username = new TextBox();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
             SuspendLayout();
@@ -49,7 +49,7 @@
             lgnbtn.BackColor = Color.FromArgb(255, 128, 0);
             lgnbtn.Font = new Font("Segoe UI", 12F, FontStyle.Bold);
             lgnbtn.ForeColor = Color.White;
-            lgnbtn.Location = new Point(178, 352);
+            lgnbtn.Location = new Point(185, 365);
             lgnbtn.Name = "lgnbtn";
             lgnbtn.Size = new Size(169, 49);
             lgnbtn.TabIndex = 12;
@@ -95,11 +95,11 @@
             // panel2
             // 
             panel2.BackColor = Color.Black;
+            panel2.Controls.Add(password);
             panel2.Controls.Add(label5);
             panel2.Controls.Add(label2);
             panel2.Controls.Add(label1);
-            panel2.Controls.Add(textBox2);
-            panel2.Controls.Add(textBox1);
+            panel2.Controls.Add(username);
             panel2.Controls.Add(label4);
             panel2.Controls.Add(lgnbtn);
             panel2.Location = new Point(111, 90);
@@ -108,22 +108,33 @@
             panel2.TabIndex = 11;
             panel2.Paint += panel2_Paint;
             // 
+            // password
+            // 
+            password.BackColor = Color.WhiteSmoke;
+            password.Location = new Point(117, 249);
+            password.Name = "password";
+            password.PasswordChar = '*';
+            password.Size = new Size(309, 31);
+            password.TabIndex = 18;
+            password.TextChanged += password_TextChanged;
+            // 
             // label5
             // 
             label5.AutoSize = true;
             label5.BackColor = Color.Transparent;
             label5.Font = new Font("Segoe UI", 7F);
-            label5.Location = new Point(308, 287);
+            label5.Location = new Point(314, 283);
             label5.Name = "label5";
             label5.Size = new Size(112, 19);
             label5.TabIndex = 17;
             label5.Text = "Forgot Password";
+            label5.Click += label5_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.BackColor = Color.Transparent;
-            label2.Location = new Point(111, 225);
+            label2.Location = new Point(117, 221);
             label2.Name = "label2";
             label2.Size = new Size(87, 25);
             label2.TabIndex = 16;
@@ -133,27 +144,20 @@
             // 
             label1.AutoSize = true;
             label1.BackColor = Color.Transparent;
-            label1.Location = new Point(111, 137);
+            label1.Location = new Point(117, 140);
             label1.Name = "label1";
             label1.Size = new Size(91, 25);
             label1.TabIndex = 15;
             label1.Text = "Username";
             // 
-            // textBox2
+            // username
             // 
-            textBox2.BackColor = Color.WhiteSmoke;
-            textBox2.Location = new Point(111, 253);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(309, 31);
-            textBox2.TabIndex = 14;
-            // 
-            // textBox1
-            // 
-            textBox1.BackColor = Color.WhiteSmoke;
-            textBox1.Location = new Point(111, 165);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(309, 31);
-            textBox1.TabIndex = 13;
+            username.BackColor = Color.WhiteSmoke;
+            username.Location = new Point(117, 168);
+            username.Name = "username";
+            username.Size = new Size(309, 31);
+            username.TabIndex = 13;
+            username.TextChanged += username_TextChanged;
             // 
             // Login
             // 
@@ -187,7 +191,7 @@
         private Label label5;
         private Label label2;
         private Label label1;
-        private TextBox textBox2;
-        private TextBox textBox1;
+        private TextBox username;
+        private TextBox password;
     }
 }
